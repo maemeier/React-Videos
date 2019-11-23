@@ -1,11 +1,13 @@
 import React from "react";
 import SearchBar from "./searchBar";
 import VideoList from "./videoList";
+
 import youtube from "../api/youtube";
 
 class App extends React.Component {
   state = {
-    videos: []
+    videos: [],
+    images: []
   };
 
   onTermSubmit = async term => {
