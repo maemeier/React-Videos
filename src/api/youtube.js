@@ -7,6 +7,7 @@ export default axios.create({
   params: {
     part: "snippet",
     maxResult: 5,
+    myRating: "",
     key: KEY
   }
 });
